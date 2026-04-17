@@ -1,0 +1,39 @@
+.our-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 0;
+}
+
+.story-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.story-text p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  max-width: 90%;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .our-story {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .story-text p {
+    max-width: 100%;
+  }
+}

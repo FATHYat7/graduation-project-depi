@@ -1,0 +1,27 @@
+.container-login{
+    height: 100dvh;
+}
+.container-main{
+    width: 40%;
+    align-items: flex-start;
+}
+
+.side-Photo{
+    height: 100dvh;
+    width:50%;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    .side-Photo{
+        display: none;
+    }
+    .container-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-main{
+        width: 70%;
+    }
+    
+}

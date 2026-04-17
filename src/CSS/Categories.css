@@ -1,0 +1,96 @@
+.browse-category {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.cat-label {
+  color: #db4444;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* ===== Swiper ===== */
+.category-slider {
+  display: flex;
+  gap: 20px; 
+  padding: 10px 0;
+}
+
+/* ===== Card ===== */
+.category-card {
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  padding: 25px 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: flex;
+  width: 180px;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.category-card:hover {
+  background: #db4444;
+  border-color: #db4444;
+  color: #fff;
+}
+
+/* Change icon to WHITE on hover */
+.category-card:hover .icon-img {
+  filter: brightness(0) invert(1);
+  transition: 0.3s ease;
+}
+
+/* ===== Icon ===== */
+.icon-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+
+/* ===== Name ===== */
+.name {
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+/* ===== Arrows ===== */
+.arrows {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; 
+}
+
+.arrow-btn {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 740px) {
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .arrows {
+    margin-top: 10px;
+  }
+}

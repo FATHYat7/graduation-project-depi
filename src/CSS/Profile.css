@@ -1,0 +1,31 @@
+.profile-page {
+  padding-top: 50px;
+}
+
+.account-menu .section-title {
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+.menu-item {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  color: #DB4444;
+  font-weight: 600;
+}
+
+.profile-box {
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.form-control {
+  height: 45px;
+  border-radius: 5px;
+}

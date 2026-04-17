@@ -1,0 +1,118 @@
+/* container */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* زودنا من 220px لـ 260px */
+  gap: 30px;
+  padding: 20px;
+}
+
+
+/* card */
+.product-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* hover effect */
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* image container */
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  padding: 10px 10px ;
+}
+
+/* hover icons (top right) */
+.hover-icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .hover-icons {
+  opacity: 1;
+}
+
+.hover-icons .icon {
+  font-size: 20px;
+  color: #db4444;
+  cursor: pointer;
+}
+
+/* اسم وسعر */
+.product-card h3 {
+  font-size: 20px;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+.product-card p {
+  font-size: 16px;
+  color: #db4444;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* النجوم */
+.stars {
+  color: #ffc107;
+  font-size: 20px;
+}
+
+.cart-button {
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.product-card:hover .cart-button {
+  opacity: 1;
+}
+
+.cart-button .cart {
+  font-size: 36px;
+  width: 100%;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.card{
+     background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top{
+    width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  padding: 10px 10px ;
+}

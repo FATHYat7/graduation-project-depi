@@ -1,0 +1,9 @@
+/* Swiper pagination bullets */
+.swiper-pagination-bullet {
+  background-color: gray !important; /* اللون العادي */
+  opacity: 1; /* خليها واضحة */
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #dc3545 !important; /* اللون danger */
+}

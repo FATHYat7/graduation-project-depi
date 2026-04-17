@@ -1,0 +1,94 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+
+/* ======================= CARD ======================= */
+.service-card {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.4s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Default Icon (Black Circle) ===== */
+.service-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  transition: 0.4s ease;
+}
+
+/* ===== Texts ===== */
+.service-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.service-text {
+  color: #555;
+}
+
+/* ======================= HOVER EFFECT ======================= */
+.service-card:hover {
+  background: #db4444;
+  color: white;
+  border-color: #db4444;
+}
+
+.service-card:hover .service-icon {
+  background: white;
+  color: #db4444;
+}
+
+.service-card:hover .service-text {
+  color: white;
+}
+
+/* ======================= RESPONSIVE ======================= */
+@media (max-width: 1200px) {
+  .services {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .services {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+
+  .service-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .service-number {
+    font-size: 1.6rem;
+  }
+
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+}

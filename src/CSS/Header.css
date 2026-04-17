@@ -1,0 +1,23 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 50;
+  width: 100%;
+  z-index: 9999; 
+}
+
+
+body {
+  padding-top: 100px !important; 
+}
+
+.navbar-brand img{
+  height: 45px;        
+  width: auto;
+  object-fit: contain;
+}
+.dropdown-menu{
+  background: rgba(255, 255, 255, 0.3) !important; 
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}

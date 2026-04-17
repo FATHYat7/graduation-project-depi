@@ -1,0 +1,59 @@
+.team-section {
+  padding: 4rem 0;
+  /* text-align: center; */
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  margin-left: 120px;
+}
+
+.team-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 16px;
+  width: 300px; 
+  margin: 0 auto;
+  
+}
+
+.team-img-box {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.team-img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;     
+  border-radius: 8px;
+}
+
+.team-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.team-role {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.team-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.swiper-pagination-bullet {
+  background: #ccc;
+}
+
+.swiper-pagination-bullet-active {
+  background: #db4444 !important;
+}
