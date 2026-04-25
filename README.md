@@ -33,6 +33,7 @@ A full-featured E-Commerce web application built using **React.js** and **Vite**
 ![Home](image.png)
 
 ### Wishlist
+
 ![Wishlist](image-1.png)
 
 ### Cart
